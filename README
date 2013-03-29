@@ -1,0 +1,11 @@
+A simple script to help search for files by a fixed string or a regular expression.
+You invoked it by typing:
+
+    ruby lsgrep.rb directory -f foo
+
+OR
+  
+    ruby lsgrep.rb directory -r bar
+
+The -f option allows for fixed strings and -r for a regular expression.  Don't parse
+ls, just use this instead!
